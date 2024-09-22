@@ -1,0 +1,26 @@
+table {
+  width: 100%;
+}
+
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+td,
+th {
+  width: 25%;
+}
+
+.add-task-button {
+  font-size: 16px; 
+  padding: 10px 20px; /* Add more padding */
+  border-radius: 8px; /* Round corners */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+  margin-bottom: 12px;
+}
+
+.add-task-button:hover {
+  background-color: #ff4081; /* Change background on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
